@@ -71,9 +71,6 @@ EditSave.Click();
 
 Thread.Sleep(1000);
 //Go to last page
-///html/body/div[4]/div/div/div[4]/a[4]/span
-///////*[@id="tmsGrid"]/div[4]/a[4]/span
-/////*[@id="tmsGrid"]/div[4]/a[4]/span
 IWebElement lastPageEdit = driver.FindElement(By.XPath("/html/body/div[4]/div/div/div[4]/a[4]/span"));
 lastPageEdit.Click();
 Thread.Sleep(4000);
